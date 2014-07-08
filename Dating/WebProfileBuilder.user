@@ -1,0 +1,12 @@
+<profile enabled="true">
+          <properties>
+            <add name="Firstname" type="string"/>
+            <add name="Lastname" type="string"/>
+            <add name="Age" type="string"/>
+            <add name="Sex" type="string"/>
+            <add name="info" type="string"/>
+            <add name="place" type="string" />
+            <add name="ProfilePicture" type="string"/>
+            <add name="language" type="string"/>
+          </properties>
+      </profile>

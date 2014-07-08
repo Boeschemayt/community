@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" enableLocalization="true">
+    <siteMapNode url="~/Default.aspx" title="Home"  description="" resourceKey="Home">
+      <siteMapNode url="~/MyPages/OverView.aspx" title="My Page" description="" resourceKey="MyPage">
+        <siteMapNode url="~/MyPages/profil.aspx" title="Profile"  description="" resourceKey="Profile" />
+        <siteMapNode url="~/MyPages/Redigera.aspx" title="Edit"  description="" resourceKey="Edit" />
+        <siteMapNode url="~/MyPages/SearchProfiles.aspx" title="Search" description="" resourceKey="Search" />
+        <siteMapNode url="~/MyPages/Friends.aspx" title="Contacts" description="" resourceKey="Contacts" />
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/wcf" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/wcf" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:49966/Service1.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" />
+  <xs:complexType name="ArrayOfInlagg">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Inlagg" nillable="true" type="tns:Inlagg" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfInlagg" nillable="true" type="tns:ArrayOfInlagg" />
+  <xs:complexType name="Inlagg">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q1:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Anvandare" nillable="true" type="tns:Anvandare" />
+          <xs:element minOccurs="0" name="Anvandare1" nillable="true" type="tns:Anvandare" />
+          <xs:element minOccurs="0" name="Anvandare1Reference" nillable="true" type="q1:EntityReferenceOfAnvandarermld6wJR" />
+          <xs:element minOccurs="0" name="AnvandareReference" nillable="true" type="q1:EntityReferenceOfAnvandarermld6wJR" />
+          <xs:element minOccurs="0" name="Fran" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="HarLast" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="InlaggID" type="xs:int" />
+          <xs:element minOccurs="0" name="Innehall" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Skickat" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Till" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Inlagg" nillable="true" type="tns:Inlagg" />
+  <xs:complexType name="Anvandare">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q2="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q2:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Alder" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="Efternamn" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Fornamn" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Info" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Inlagg" nillable="true" type="tns:ArrayOfInlagg" />
+          <xs:element minOccurs="0" name="Inlagg1" nillable="true" type="tns:ArrayOfInlagg" />
+          <xs:element minOccurs="0" name="Kon" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Kontakter" nillable="true" type="tns:ArrayOfKontakter" />
+          <xs:element minOccurs="0" name="Kontakter1" nillable="true" type="tns:ArrayOfKontakter" />
+          <xs:element minOccurs="0" name="Meddelande" nillable="true" type="tns:ArrayOfMeddelande" />
+          <xs:element minOccurs="0" name="Meddelande1" nillable="true" type="tns:ArrayOfMeddelande" />
+          <xs:element minOccurs="0" name="Ort" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ProfilBild" nillable="true" type="tns:ArrayOfProfilBild" />
+          <xs:element minOccurs="0" name="ProfilNamn" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Anvandare" nillable="true" type="tns:Anvandare" />
+  <xs:complexType name="ArrayOfKontakter">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Kontakter" nillable="true" type="tns:Kontakter" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfKontakter" nillable="true" type="tns:ArrayOfKontakter" />
+  <xs:complexType name="Kontakter">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q3="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q3:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Anvandare" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Anvandare1" nillable="true" type="tns:Anvandare" />
+          <xs:element minOccurs="0" name="Anvandare1Reference" nillable="true" type="q3:EntityReferenceOfAnvandarermld6wJR" />
+          <xs:element minOccurs="0" name="Anvandare2" nillable="true" type="tns:Anvandare" />
+          <xs:element minOccurs="0" name="Anvandare2Reference" nillable="true" type="q3:EntityReferenceOfAnvandarermld6wJR" />
+          <xs:element minOccurs="0" name="Kontakt" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Request" nillable="true" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Kontakter" nillable="true" type="tns:Kontakter" />
+  <xs:complexType name="ArrayOfMeddelande">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Meddelande" nillable="true" type="tns:Meddelande" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMeddelande" nillable="true" type="tns:ArrayOfMeddelande" />
+  <xs:complexType name="Meddelande">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q4="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q4:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Amne" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Anvandare" nillable="true" type="tns:Anvandare" />
+          <xs:element minOccurs="0" name="Anvandare1" nillable="true" type="tns:Anvandare" />
+          <xs:element minOccurs="0" name="Anvandare1Reference" nillable="true" type="q4:EntityReferenceOfAnvandarermld6wJR" />
+          <xs:element minOccurs="0" name="AnvandareReference" nillable="true" type="q4:EntityReferenceOfAnvandarermld6wJR" />
+          <xs:element minOccurs="0" name="Fran" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="HarLast" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="Innehall" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MedID" type="xs:int" />
+          <xs:element minOccurs="0" name="Skickat" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Till" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Meddelande" nillable="true" type="tns:Meddelande" />
+  <xs:complexType name="ArrayOfProfilBild">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ProfilBild" nillable="true" type="tns:ProfilBild" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProfilBild" nillable="true" type="tns:ArrayOfProfilBild" />
+  <xs:complexType name="ProfilBild">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q5="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q5:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Anvandare" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Anvandare1" nillable="true" type="tns:Anvandare" />
+          <xs:element minOccurs="0" name="Anvandare1Reference" nillable="true" type="q5:EntityReferenceOfAnvandarermld6wJR" />
+          <xs:element minOccurs="0" name="Bild" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="BildID" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ProfilBild" nillable="true" type="tns:ProfilBild" />
+</xs:schema>

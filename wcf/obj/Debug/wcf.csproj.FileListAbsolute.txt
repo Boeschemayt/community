@@ -1,0 +1,217 @@
+c:\users\brand_000\documents\visual studio 2010\Projects\wcf\wcf\bin\wcf.dll
+c:\users\brand_000\documents\visual studio 2010\Projects\wcf\wcf\bin\wcf.pdb
+c:\users\brand_000\documents\visual studio 2010\Projects\wcf\wcf\obj\Debug\wcf.dll
+c:\users\brand_000\documents\visual studio 2010\Projects\wcf\wcf\obj\Debug\wcf.pdb
+G:\project 0.1\wcf\wcf\bin\wcf.dll
+G:\project 0.1\wcf\wcf\bin\wcf.pdb
+G:\project 0.1\wcf\wcf\obj\Debug\ResolveAssemblyReference.cache
+G:\project 0.1\wcf\wcf\obj\Debug\wcf.dll
+G:\project 0.1\wcf\wcf\obj\Debug\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\project 0.1\wcf\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\project 0.1\wcf\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\project 0.1\wcf\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\project 0.1\wcf\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\project 0.1\wcf\wcf\obj\Debug\wcf.pdb
+C:\Users\brand_000\Desktop\project 0.2\wcf\wcf\bin\wcf.dll
+C:\Users\brand_000\Desktop\project 0.2\wcf\wcf\bin\wcf.pdb
+C:\Users\brand_000\Desktop\project 0.2\wcf\wcf\obj\Debug\wcf.dll
+C:\Users\brand_000\Desktop\project 0.2\wcf\wcf\obj\Debug\wcf.pdb
+C:\Users\brand_000\Desktop\project 0.3.2\wcf\bin\wcf.dll
+C:\Users\brand_000\Desktop\project 0.3.2\wcf\bin\wcf.pdb
+C:\Users\brand_000\Desktop\project 0.3.2\wcf\obj\Debug\wcf.dll
+C:\Users\brand_000\Desktop\project 0.3.2\wcf\obj\Debug\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\project 0.3.2\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\project 0.3.2\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\project 0.3.2\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\project 0.3.2\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\project 0.3.2\wcf\obj\Debug\wcf.pdb
+C:\Users\johan\Desktop\backup\project 0.3.4\wcf\bin\wcf.dll
+C:\Users\johan\Desktop\backup\project 0.3.4\wcf\bin\wcf.pdb
+C:\Users\johan\Desktop\backup\project 0.3.4\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\johan\Desktop\backup\project 0.3.4\wcf\obj\Debug\wcf.dll
+C:\Users\johan\Desktop\backup\project 0.3.4\wcf\obj\Debug\wcf.pdb
+C:\Users\johan\Desktop\Current\Projekt 0.3.5\wcf\bin\wcf.dll
+C:\Users\johan\Desktop\Current\Projekt 0.3.5\wcf\bin\wcf.pdb
+C:\Users\johan\Desktop\Current\Projekt 0.3.5\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\johan\Desktop\Current\Projekt 0.3.5\wcf\obj\Debug\wcf.dll
+C:\Users\johan\Desktop\Current\Projekt 0.3.5\wcf\obj\Debug\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\projekt 0.3.6\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\projekt 0.3.6\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\projekt 0.3.6\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\projekt 0.3.6\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\projekt 0.3.6\wcf\obj\Debug\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\projekt 0.3.7\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\projekt 0.3.7\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\projekt 0.3.7\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\projekt 0.3.7\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\projekt 0.3.7\wcf\obj\Debug\wcf.pdb
+C:\Users\johan\Desktop\projekt 0.3.8\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\johan\Desktop\projekt 0.3.8\wcf\obj\Debug\wcf.dll
+C:\Users\johan\Desktop\projekt 0.3.8\wcf\bin\wcf.dll
+C:\Users\johan\Desktop\projekt 0.3.8\wcf\bin\wcf.pdb
+C:\Users\johan\Desktop\projekt 0.3.8\wcf\obj\Debug\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.3.9\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.3.9\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.3.9\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.3.9\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.3.9\wcf\obj\Debug\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4\wcf\obj\Debug\wcf.pdb
+C:\Users\brand_000\Desktop\aspnet project\Projekt 0.4.1\wcf\bin\wcf.dll
+C:\Users\brand_000\Desktop\aspnet project\Projekt 0.4.1\wcf\bin\wcf.pdb
+C:\Users\brand_000\Desktop\aspnet project\Projekt 0.4.1\wcf\obj\Debug\wcf.dll
+C:\Users\brand_000\Desktop\aspnet project\Projekt 0.4.1\wcf\obj\Debug\wcf.pdb
+C:\Users\brand_000\Desktop\aspnet project\Projekt 0.4.1 - kopia\wcf\bin\wcf.dll
+C:\Users\brand_000\Desktop\aspnet project\Projekt 0.4.1 - kopia\wcf\bin\wcf.pdb
+C:\Users\brand_000\Desktop\aspnet project\Projekt 0.4.1 - kopia\wcf\obj\Debug\wcf.dll
+C:\Users\brand_000\Desktop\aspnet project\Projekt 0.4.1 - kopia\wcf\obj\Debug\wcf.pdb
+C:\Users\brand_000\Desktop\aspnet project\Projekt 0.4.1 - kopia\wcf\obj\Debug\wcf.csprojResolveAssemblyReference.cache
+C:\Users\brand_000\Desktop\aspnet project\Projekt 0.4.1\wcf\obj\Debug\wcf.csprojResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.2 full\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.2 full\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.2 full\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.2 full\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.2 full\wcf\obj\Debug\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.2 full - Copy\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.2 full - Copy\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.2 full - Copy\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.2 full - Copy\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.2 full - Copy\wcf\obj\Debug\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.2 full - Copy - Copy\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.2 full - Copy - Copy\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.2 full - Copy - Copy\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.2 full - Copy - Copy\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.2 full - Copy - Copy\wcf\obj\Debug\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.2 full - Copy - Copy - Copy\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.2 full - Copy - Copy - Copy\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.2 full - Copy - Copy - Copy\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.2 full - Copy - Copy - Copy\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.2 full - Copy - Copy - Copy\wcf\obj\Debug\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.6 - Copy (2)\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.6 - Copy (2)\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.6 - Copy (2)\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.6 - Copy (2)\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.6 - Copy (2)\wcf\obj\Debug\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.7 - Copy\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.7 - Copy\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.7 - Copy\wcf\obj\Debug\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.7 - Copy\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.7 - Copy\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.8 - Copy\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.8 - Copy\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.8 - Copy\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.8 - Copy\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.4.8 - Copy\wcf\obj\Debug\wcf.pdb
+C:\Users\johan\Desktop\Projekt 0.5.0\wcf\bin\wcf.dll
+C:\Users\johan\Desktop\Projekt 0.5.0\wcf\bin\wcf.pdb
+C:\Users\johan\Desktop\Projekt 0.5.0\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\johan\Desktop\Projekt 0.5.0\wcf\obj\Debug\wcf.dll
+C:\Users\johan\Desktop\Projekt 0.5.0\wcf\obj\Debug\wcf.pdb
+C:\Users\brand_000\Desktop\aspnet project\Projekt 0.5.1\wcf\bin\wcf.dll
+C:\Users\brand_000\Desktop\aspnet project\Projekt 0.5.1\wcf\bin\wcf.pdb
+C:\Users\brand_000\Desktop\aspnet project\Projekt 0.5.1\wcf\obj\Debug\wcf.csprojResolveAssemblyReference.cache
+C:\Users\brand_000\Desktop\aspnet project\Projekt 0.5.1\wcf\obj\Debug\wcf.dll
+C:\Users\brand_000\Desktop\aspnet project\Projekt 0.5.1\wcf\obj\Debug\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.5.2\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.5.2\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.5.2\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.5.2\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.5.2\wcf\obj\Debug\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.5.3\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.5.3\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.5.3\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.5.3\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.5.3\wcf\obj\Debug\wcf.pdb
+C:\Users\johan\Desktop\Projekt 0.5.4\wcf\bin\wcf.dll
+C:\Users\johan\Desktop\Projekt 0.5.4\wcf\bin\wcf.pdb
+C:\Users\johan\Desktop\Projekt 0.5.4\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\johan\Desktop\Projekt 0.5.4\wcf\obj\Debug\wcf.dll
+C:\Users\johan\Desktop\Projekt 0.5.4\wcf\obj\Debug\wcf.pdb
+C:\Users\brand_000\Desktop\aspnet project\Projekt 0.5.5\wcf\bin\wcf.dll
+C:\Users\brand_000\Desktop\aspnet project\Projekt 0.5.5\wcf\bin\wcf.pdb
+C:\Users\brand_000\Desktop\aspnet project\Projekt 0.5.5\wcf\obj\Debug\wcf.csprojResolveAssemblyReference.cache
+C:\Users\brand_000\Desktop\aspnet project\Projekt 0.5.5\wcf\obj\Debug\wcf.dll
+C:\Users\brand_000\Desktop\aspnet project\Projekt 0.5.5\wcf\obj\Debug\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.5.5\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.5.5\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.5.5\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.5.5\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Projekt 0.5.5\wcf\obj\Debug\wcf.pdb
+C:\Users\johan\Desktop\Projekt 0.5.7\wcf\bin\wcf.dll
+C:\Users\johan\Desktop\Projekt 0.5.7\wcf\bin\wcf.pdb
+C:\Users\johan\Desktop\Projekt 0.5.7\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\johan\Desktop\Projekt 0.5.7\wcf\obj\Debug\wcf.dll
+C:\Users\johan\Desktop\Projekt 0.5.7\wcf\obj\Debug\wcf.pdb
+C:\Users\johan\Desktop\C#\backup\wcf\bin\wcf.dll
+C:\Users\johan\Desktop\C#\backup\wcf\bin\wcf.pdb
+C:\Users\johan\Desktop\C#\backup\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\johan\Desktop\C#\backup\wcf\obj\Debug\wcf.dll
+C:\Users\johan\Desktop\C#\backup\wcf\obj\Debug\wcf.pdb
+C:\Users\brand_000\Desktop\aspnet project\Project 0.5.8\wcf\bin\wcf.dll
+C:\Users\brand_000\Desktop\aspnet project\Project 0.5.8\wcf\bin\wcf.pdb
+C:\Users\brand_000\Desktop\aspnet project\Project 0.5.8\wcf\obj\Debug\wcf.csprojResolveAssemblyReference.cache
+C:\Users\brand_000\Desktop\aspnet project\Project 0.5.8\wcf\obj\Debug\wcf.dll
+C:\Users\brand_000\Desktop\aspnet project\Project 0.5.8\wcf\obj\Debug\wcf.pdb
+C:\Users\brand_000\Desktop\aspnet project\Project 0.5.8 - kopia\wcf\bin\wcf.dll
+C:\Users\brand_000\Desktop\aspnet project\Project 0.5.8 - kopia\wcf\bin\wcf.pdb
+C:\Users\brand_000\Desktop\aspnet project\Project 0.5.8 - kopia\wcf\obj\Debug\wcf.csprojResolveAssemblyReference.cache
+C:\Users\brand_000\Desktop\aspnet project\Project 0.5.8 - kopia\wcf\obj\Debug\wcf.dll
+C:\Users\brand_000\Desktop\aspnet project\Project 0.5.8 - kopia\wcf\obj\Debug\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.5.9\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.5.9\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.5.9\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.5.9\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.5.9\wcf\obj\Debug\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.6.0\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.6.0\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.6.0\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.6.0\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.6.0\wcf\obj\Debug\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.6.1\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.6.1\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.6.1\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.6.1\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.6.1\wcf\obj\Debug\wcf.pdb
+C:\Users\johan\Desktop\Project 0.6.1\wcf\bin\wcf.dll
+C:\Users\johan\Desktop\Project 0.6.1\wcf\bin\wcf.pdb
+C:\Users\johan\Desktop\Project 0.6.1\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\johan\Desktop\Project 0.6.1\wcf\obj\Debug\wcf.dll
+C:\Users\johan\Desktop\Project 0.6.1\wcf\obj\Debug\wcf.pdb
+C:\Users\brand_000\Desktop\aspnet project\Project 0.6.2\wcf\bin\wcf.dll
+C:\Users\brand_000\Desktop\aspnet project\Project 0.6.2\wcf\bin\wcf.pdb
+C:\Users\brand_000\Desktop\aspnet project\Project 0.6.2\wcf\obj\Debug\wcf.csprojResolveAssemblyReference.cache
+C:\Users\brand_000\Desktop\aspnet project\Project 0.6.2\wcf\obj\Debug\wcf.dll
+C:\Users\brand_000\Desktop\aspnet project\Project 0.6.2\wcf\obj\Debug\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.6.3\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.6.3\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.6.3\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.6.3\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.6.3\wcf\obj\Debug\wcf.pdb
+C:\Users\johan\Desktop\Project 0.6.4\wcf\bin\wcf.dll
+C:\Users\johan\Desktop\Project 0.6.4\wcf\bin\wcf.pdb
+C:\Users\johan\Desktop\Project 0.6.4\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\johan\Desktop\Project 0.6.4\wcf\obj\Debug\wcf.dll
+C:\Users\johan\Desktop\Project 0.6.4\wcf\obj\Debug\wcf.pdb
+C:\Users\johan\Desktop\Project 0.6.5\wcf\bin\wcf.dll
+C:\Users\johan\Desktop\Project 0.6.5\wcf\bin\wcf.pdb
+C:\Users\johan\Desktop\Project 0.6.5\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\johan\Desktop\Project 0.6.5\wcf\obj\Debug\wcf.dll
+C:\Users\johan\Desktop\Project 0.6.5\wcf\obj\Debug\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.6.5\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.6.5\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.6.5\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.6.5\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Project 0.6.5\wcf\obj\Debug\wcf.pdb
+C:\Users\johan\Desktop\Project 0.6.6\wcf\bin\wcf.dll
+C:\Users\johan\Desktop\Project 0.6.6\wcf\bin\wcf.pdb
+C:\Users\johan\Desktop\Project 0.6.6\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\johan\Desktop\Project 0.6.6\wcf\obj\Debug\wcf.dll
+C:\Users\johan\Desktop\Project 0.6.6\wcf\obj\Debug\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Grupp 19\wcf\bin\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Grupp 19\wcf\bin\wcf.pdb
+C:\Users\Andreas Brandt\Desktop\asp project\Grupp 19\wcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Brandt\Desktop\asp project\Grupp 19\wcf\obj\Debug\wcf.dll
+C:\Users\Andreas Brandt\Desktop\asp project\Grupp 19\wcf\obj\Debug\wcf.pdb

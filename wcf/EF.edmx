@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="App_DatingsystemModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="App_DatingsystemModelStoreContainer">
+          <EntitySet Name="Anvandare" EntityType="App_DatingsystemModel.Store.Anvandare" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Inlagg" EntityType="App_DatingsystemModel.Store.Inlagg" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Kontakter" EntityType="App_DatingsystemModel.Store.Kontakter" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Meddelande" EntityType="App_DatingsystemModel.Store.Meddelande" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ProfilBild" EntityType="App_DatingsystemModel.Store.ProfilBild" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK__Inlagg__Fran__0AD2A005" Association="App_DatingsystemModel.Store.FK__Inlagg__Fran__0AD2A005">
+            <End Role="Anvandare" EntitySet="Anvandare" />
+            <End Role="Inlagg" EntitySet="Inlagg" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Inlagg__Till__0BC6C43E" Association="App_DatingsystemModel.Store.FK__Inlagg__Till__0BC6C43E">
+            <End Role="Anvandare" EntitySet="Anvandare" />
+            <End Role="Inlagg" EntitySet="Inlagg" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Kontakter__Anvan__15502E78" Association="App_DatingsystemModel.Store.FK__Kontakter__Anvan__15502E78">
+            <End Role="Anvandare" EntitySet="Anvandare" />
+            <End Role="Kontakter" EntitySet="Kontakter" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Kontakter__Konta__164452B1" Association="App_DatingsystemModel.Store.FK__Kontakter__Konta__164452B1">
+            <End Role="Anvandare" EntitySet="Anvandare" />
+            <End Role="Kontakter" EntitySet="Kontakter" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Meddelande__Fran__0519C6AF" Association="App_DatingsystemModel.Store.FK__Meddelande__Fran__0519C6AF">
+            <End Role="Anvandare" EntitySet="Anvandare" />
+            <End Role="Meddelande" EntitySet="Meddelande" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Meddelande__Till__060DEAE8" Association="App_DatingsystemModel.Store.FK__Meddelande__Till__060DEAE8">
+            <End Role="Anvandare" EntitySet="Anvandare" />
+            <End Role="Meddelande" EntitySet="Meddelande" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ProfilBil__Anvan__108B795B" Association="App_DatingsystemModel.Store.FK__ProfilBil__Anvan__108B795B">
+            <End Role="Anvandare" EntitySet="Anvandare" />
+            <End Role="ProfilBild" EntitySet="ProfilBild" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Anvandare">
+          <Key>
+            <PropertyRef Name="ProfilNamn" />
+          </Key>
+          <Property Name="ProfilNamn" Type="nvarchar" Nullable="false" MaxLength="25" />
+          <Property Name="Fornamn" Type="nvarchar" MaxLength="25" />
+          <Property Name="Efternamn" Type="nvarchar" MaxLength="25" />
+          <Property Name="Alder" Type="int" />
+          <Property Name="Kon" Type="nvarchar" MaxLength="6" />
+          <Property Name="Info" Type="nvarchar" MaxLength="500" />
+          <Property Name="Ort" Type="nvarchar" MaxLength="25" />
+        </EntityType>
+        <EntityType Name="Inlagg">
+          <Key>
+            <PropertyRef Name="InlaggID" />
+          </Key>
+          <Property Name="InlaggID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Fran" Type="nvarchar" Nullable="false" MaxLength="25" />
+          <Property Name="Till" Type="nvarchar" Nullable="false" MaxLength="25" />
+          <Property Name="Innehall" Type="nvarchar" Nullable="false" MaxLength="200" />
+          <Property Name="Skickat" Type="smalldatetime" />
+          <Property Name="HarLast" Type="int" />
+        </EntityType>
+        <EntityType Name="Kontakter">
+          <Key>
+            <PropertyRef Name="Anvandare" />
+            <PropertyRef Name="Kontakt" />
+          </Key>
+          <Property Name="Anvandare" Type="nvarchar" Nullable="false" MaxLength="25" />
+          <Property Name="Request" Type="int" />
+          <Property Name="Kontakt" Type="nvarchar" Nullable="false" MaxLength="25" />
+        </EntityType>
+        <EntityType Name="Meddelande">
+          <Key>
+            <PropertyRef Name="MedID" />
+          </Key>
+          <Property Name="MedID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Fran" Type="nvarchar" Nullable="false" MaxLength="25" />
+          <Property Name="Till" Type="nvarchar" Nullable="false" MaxLength="25" />
+          <Property Name="Amne" Type="nvarchar" MaxLength="25" />
+          <Property Name="Innehall" Type="nvarchar" Nullable="false" MaxLength="500" />
+          <Property Name="Skickat" Type="smalldatetime" />
+          <Property Name="HarLast" Type="int" />
+        </EntityType>
+        <EntityType Name="ProfilBild">
+          <Key>
+            <PropertyRef Name="BildID" />
+          </Key>
+          <Property Name="BildID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Bild" Type="varchar" MaxLength="150" />
+          <Property Name="Anvandare" Type="nvarchar" Nullable="false" MaxLength="25" />
+        </EntityType>
+        <Association Name="FK__Inlagg__Fran__0AD2A005">
+          <End Role="Anvandare" Type="App_DatingsystemModel.Store.Anvandare" Multiplicity="1" />
+          <End Role="Inlagg" Type="App_DatingsystemModel.Store.Inlagg" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Anvandare">
+              <PropertyRef Name="ProfilNamn" />
+            </Principal>
+            <Dependent Role="Inlagg">
+              <PropertyRef Name="Fran" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Inlagg__Till__0BC6C43E">
+          <End Role="Anvandare" Type="App_DatingsystemModel.Store.Anvandare" Multiplicity="1" />
+          <End Role="Inlagg" Type="App_DatingsystemModel.Store.Inlagg" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Anvandare">
+              <PropertyRef Name="ProfilNamn" />
+            </Principal>
+            <Dependent Role="Inlagg">
+              <PropertyRef Name="Till" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Kontakter__Anvan__15502E78">
+          <End Role="Anvandare" Type="App_DatingsystemModel.Store.Anvandare" Multiplicity="1" />
+          <End Role="Kontakter" Type="App_DatingsystemModel.Store.Kontakter" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Anvandare">
+              <PropertyRef Name="ProfilNamn" />
+            </Principal>
+            <Dependent Role="Kontakter">
+              <PropertyRef Name="Anvandare" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Kontakter__Konta__164452B1">
+          <End Role="Anvandare" Type="App_DatingsystemModel.Store.Anvandare" Multiplicity="1" />
+          <End Role="Kontakter" Type="App_DatingsystemModel.Store.Kontakter" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Anvandare">
+              <PropertyRef Name="ProfilNamn" />
+            </Principal>
+            <Dependent Role="Kontakter">
+              <PropertyRef Name="Kontakt" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Meddelande__Fran__0519C6AF">
+          <End Role="Anvandare" Type="App_DatingsystemModel.Store.Anvandare" Multiplicity="1" />
+          <End Role="Meddelande" Type="App_DatingsystemModel.Store.Meddelande" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Anvandare">
+              <PropertyRef Name="ProfilNamn" />
+            </Principal>
+            <Dependent Role="Meddelande">
+              <PropertyRef Name="Fran" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Meddelande__Till__060DEAE8">
+          <End Role="Anvandare" Type="App_DatingsystemModel.Store.Anvandare" Multiplicity="1" />
+          <End Role="Meddelande" Type="App_DatingsystemModel.Store.Meddelande" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Anvandare">
+              <PropertyRef Name="ProfilNamn" />
+            </Principal>
+            <Dependent Role="Meddelande">
+              <PropertyRef Name="Till" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ProfilBil__Anvan__108B795B">
+          <End Role="Anvandare" Type="App_DatingsystemModel.Store.Anvandare" Multiplicity="1" />
+          <End Role="ProfilBild" Type="App_DatingsystemModel.Store.ProfilBild" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Anvandare">
+              <PropertyRef Name="ProfilNamn" />
+            </Principal>
+            <Dependent Role="ProfilBild">
+              <PropertyRef Name="Anvandare" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="App_DatingsystemModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="DatingEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Anvandare" EntityType="App_DatingsystemModel.Anvandare" />
+          <EntitySet Name="Inlagg" EntityType="App_DatingsystemModel.Inlagg" />
+          <EntitySet Name="Kontakter" EntityType="App_DatingsystemModel.Kontakter" />
+          <EntitySet Name="Meddelande" EntityType="App_DatingsystemModel.Meddelande" />
+          <EntitySet Name="ProfilBild" EntityType="App_DatingsystemModel.ProfilBild" />
+          <AssociationSet Name="FK__Inlagg__Fran__0AD2A005" Association="App_DatingsystemModel.FK__Inlagg__Fran__0AD2A005">
+            <End Role="Anvandare" EntitySet="Anvandare" />
+            <End Role="Inlagg" EntitySet="Inlagg" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Inlagg__Till__0BC6C43E" Association="App_DatingsystemModel.FK__Inlagg__Till__0BC6C43E">
+            <End Role="Anvandare" EntitySet="Anvandare" />
+            <End Role="Inlagg" EntitySet="Inlagg" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Kontakter__Anvan__15502E78" Association="App_DatingsystemModel.FK__Kontakter__Anvan__15502E78">
+            <End Role="Anvandare" EntitySet="Anvandare" />
+            <End Role="Kontakter" EntitySet="Kontakter" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Kontakter__Konta__164452B1" Association="App_DatingsystemModel.FK__Kontakter__Konta__164452B1">
+            <End Role="Anvandare" EntitySet="Anvandare" />
+            <End Role="Kontakter" EntitySet="Kontakter" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Meddelande__Fran__0519C6AF" Association="App_DatingsystemModel.FK__Meddelande__Fran__0519C6AF">
+            <End Role="Anvandare" EntitySet="Anvandare" />
+            <End Role="Meddelande" EntitySet="Meddelande" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Meddelande__Till__060DEAE8" Association="App_DatingsystemModel.FK__Meddelande__Till__060DEAE8">
+            <End Role="Anvandare" EntitySet="Anvandare" />
+            <End Role="Meddelande" EntitySet="Meddelande" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ProfilBil__Anvan__108B795B" Association="App_DatingsystemModel.FK__ProfilBil__Anvan__108B795B">
+            <End Role="Anvandare" EntitySet="Anvandare" />
+            <End Role="ProfilBild" EntitySet="ProfilBild" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Anvandare">
+          <Key>
+            <PropertyRef Name="ProfilNamn" />
+          </Key>
+          <Property Type="String" Name="ProfilNamn" Nullable="false" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Fornamn" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Efternamn" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="Alder" />
+          <Property Type="String" Name="Kon" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Info" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Ort" MaxLength="25" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Inlagg" Relationship="App_DatingsystemModel.FK__Inlagg__Fran__0AD2A005" FromRole="Anvandare" ToRole="Inlagg" />
+          <NavigationProperty Name="Inlagg1" Relationship="App_DatingsystemModel.FK__Inlagg__Till__0BC6C43E" FromRole="Anvandare" ToRole="Inlagg" />
+          <NavigationProperty Name="Kontakter" Relationship="App_DatingsystemModel.FK__Kontakter__Anvan__15502E78" FromRole="Anvandare" ToRole="Kontakter" />
+          <NavigationProperty Name="Kontakter1" Relationship="App_DatingsystemModel.FK__Kontakter__Konta__164452B1" FromRole="Anvandare" ToRole="Kontakter" />
+          <NavigationProperty Name="Meddelande" Relationship="App_DatingsystemModel.FK__Meddelande__Fran__0519C6AF" FromRole="Anvandare" ToRole="Meddelande" />
+          <NavigationProperty Name="Meddelande1" Relationship="App_DatingsystemModel.FK__Meddelande__Till__060DEAE8" FromRole="Anvandare" ToRole="Meddelande" />
+          <NavigationProperty Name="ProfilBild" Relationship="App_DatingsystemModel.FK__ProfilBil__Anvan__108B795B" FromRole="Anvandare" ToRole="ProfilBild" />
+        </EntityType>
+        <EntityType Name="Inlagg">
+          <Key>
+            <PropertyRef Name="InlaggID" />
+          </Key>
+          <Property Type="Int32" Name="InlaggID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Fran" Nullable="false" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Till" Nullable="false" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Innehall" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="Skickat" />
+          <Property Type="Int32" Name="HarLast" />
+          <NavigationProperty Name="Anvandare" Relationship="App_DatingsystemModel.FK__Inlagg__Fran__0AD2A005" FromRole="Inlagg" ToRole="Anvandare" />
+          <NavigationProperty Name="Anvandare1" Relationship="App_DatingsystemModel.FK__Inlagg__Till__0BC6C43E" FromRole="Inlagg" ToRole="Anvandare" />
+        </EntityType>
+        <EntityType Name="Kontakter">
+          <Key>
+            <PropertyRef Name="Anvandare" />
+            <PropertyRef Name="Kontakt" />
+          </Key>
+          <Property Type="String" Name="Anvandare" Nullable="false" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="Request" />
+          <Property Type="String" Name="Kontakt" Nullable="false" MaxLength="25" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Anvandare1" Relationship="App_DatingsystemModel.FK__Kontakter__Anvan__15502E78" FromRole="Kontakter" ToRole="Anvandare" />
+          <NavigationProperty Name="Anvandare2" Relationship="App_DatingsystemModel.FK__Kontakter__Konta__164452B1" FromRole="Kontakter" ToRole="Anvandare" />
+        </EntityType>
+        <EntityType Name="Meddelande">
+          <Key>
+            <PropertyRef Name="MedID" />
+          </Key>
+          <Property Type="Int32" Name="MedID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Fran" Nullable="false" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Till" Nullable="false" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Amne" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Innehall" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="Skickat" />
+          <Property Type="Int32" Name="HarLast" />
+          <NavigationProperty Name="Anvandare" Relationship="App_DatingsystemModel.FK__Meddelande__Fran__0519C6AF" FromRole="Meddelande" ToRole="Anvandare" />
+          <NavigationProperty Name="Anvandare1" Relationship="App_DatingsystemModel.FK__Meddelande__Till__060DEAE8" FromRole="Meddelande" ToRole="Anvandare" />
+        </EntityType>
+        <EntityType Name="ProfilBild">
+          <Key>
+            <PropertyRef Name="BildID" />
+          </Key>
+          <Property Type="Int32" Name="BildID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Bild" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Anvandare" Nullable="false" MaxLength="25" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Anvandare1" Relationship="App_DatingsystemModel.FK__ProfilBil__Anvan__108B795B" FromRole="ProfilBild" ToRole="Anvandare" />
+        </EntityType>
+        <Association Name="FK__Inlagg__Fran__0AD2A005">
+          <End Type="App_DatingsystemModel.Anvandare" Role="Anvandare" Multiplicity="1" />
+          <End Type="App_DatingsystemModel.Inlagg" Role="Inlagg" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Anvandare">
+              <PropertyRef Name="ProfilNamn" />
+            </Principal>
+            <Dependent Role="Inlagg">
+              <PropertyRef Name="Fran" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Inlagg__Till__0BC6C43E">
+          <End Type="App_DatingsystemModel.Anvandare" Role="Anvandare" Multiplicity="1" />
+          <End Type="App_DatingsystemModel.Inlagg" Role="Inlagg" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Anvandare">
+              <PropertyRef Name="ProfilNamn" />
+            </Principal>
+            <Dependent Role="Inlagg">
+              <PropertyRef Name="Till" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Kontakter__Anvan__15502E78">
+          <End Type="App_DatingsystemModel.Anvandare" Role="Anvandare" Multiplicity="1" />
+          <End Type="App_DatingsystemModel.Kontakter" Role="Kontakter" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Anvandare">
+              <PropertyRef Name="ProfilNamn" />
+            </Principal>
+            <Dependent Role="Kontakter">
+              <PropertyRef Name="Anvandare" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Kontakter__Konta__164452B1">
+          <End Type="App_DatingsystemModel.Anvandare" Role="Anvandare" Multiplicity="1" />
+          <End Type="App_DatingsystemModel.Kontakter" Role="Kontakter" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Anvandare">
+              <PropertyRef Name="ProfilNamn" />
+            </Principal>
+            <Dependent Role="Kontakter">
+              <PropertyRef Name="Kontakt" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Meddelande__Fran__0519C6AF">
+          <End Type="App_DatingsystemModel.Anvandare" Role="Anvandare" Multiplicity="1" />
+          <End Type="App_DatingsystemModel.Meddelande" Role="Meddelande" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Anvandare">
+              <PropertyRef Name="ProfilNamn" />
+            </Principal>
+            <Dependent Role="Meddelande">
+              <PropertyRef Name="Fran" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Meddelande__Till__060DEAE8">
+          <End Type="App_DatingsystemModel.Anvandare" Role="Anvandare" Multiplicity="1" />
+          <End Type="App_DatingsystemModel.Meddelande" Role="Meddelande" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Anvandare">
+              <PropertyRef Name="ProfilNamn" />
+            </Principal>
+            <Dependent Role="Meddelande">
+              <PropertyRef Name="Till" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ProfilBil__Anvan__108B795B">
+          <End Type="App_DatingsystemModel.Anvandare" Role="Anvandare" Multiplicity="1" />
+          <End Type="App_DatingsystemModel.ProfilBild" Role="ProfilBild" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Anvandare">
+              <PropertyRef Name="ProfilNamn" />
+            </Principal>
+            <Dependent Role="ProfilBild">
+              <PropertyRef Name="Anvandare" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="App_DatingsystemModelStoreContainer" CdmEntityContainer="DatingEntities">
+          <EntitySetMapping Name="Anvandare">
+            <EntityTypeMapping TypeName="App_DatingsystemModel.Anvandare">
+              <MappingFragment StoreEntitySet="Anvandare">
+                <ScalarProperty Name="Ort" ColumnName="Ort" />
+                <ScalarProperty Name="Info" ColumnName="Info" />
+                <ScalarProperty Name="Kon" ColumnName="Kon" />
+                <ScalarProperty Name="Alder" ColumnName="Alder" />
+                <ScalarProperty Name="Efternamn" ColumnName="Efternamn" />
+                <ScalarProperty Name="Fornamn" ColumnName="Fornamn" />
+                <ScalarProperty Name="ProfilNamn" ColumnName="ProfilNamn" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Inlagg">
+            <EntityTypeMapping TypeName="App_DatingsystemModel.Inlagg">
+              <MappingFragment StoreEntitySet="Inlagg">
+                <ScalarProperty Name="HarLast" ColumnName="HarLast" />
+                <ScalarProperty Name="Skickat" ColumnName="Skickat" />
+                <ScalarProperty Name="Innehall" ColumnName="Innehall" />
+                <ScalarProperty Name="Till" ColumnName="Till" />
+                <ScalarProperty Name="Fran" ColumnName="Fran" />
+                <ScalarProperty Name="InlaggID" ColumnName="InlaggID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Kontakter">
+            <EntityTypeMapping TypeName="App_DatingsystemModel.Kontakter">
+              <MappingFragment StoreEntitySet="Kontakter">
+                <ScalarProperty Name="Kontakt" ColumnName="Kontakt" />
+                <ScalarProperty Name="Request" ColumnName="Request" />
+                <ScalarProperty Name="Anvandare" ColumnName="Anvandare" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Meddelande">
+            <EntityTypeMapping TypeName="App_DatingsystemModel.Meddelande">
+              <MappingFragment StoreEntitySet="Meddelande">
+                <ScalarProperty Name="HarLast" ColumnName="HarLast" />
+                <ScalarProperty Name="Skickat" ColumnName="Skickat" />
+                <ScalarProperty Name="Innehall" ColumnName="Innehall" />
+                <ScalarProperty Name="Amne" ColumnName="Amne" />
+                <ScalarProperty Name="Till" ColumnName="Till" />
+                <ScalarProperty Name="Fran" ColumnName="Fran" />
+                <ScalarProperty Name="MedID" ColumnName="MedID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ProfilBild">
+            <EntityTypeMapping TypeName="App_DatingsystemModel.ProfilBild">
+              <MappingFragment StoreEntitySet="ProfilBild">
+                <ScalarProperty Name="Anvandare" ColumnName="Anvandare" />
+                <ScalarProperty Name="Bild" ColumnName="Bild" />
+                <ScalarProperty Name="BildID" ColumnName="BildID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="EF">
+        <EntityTypeShape EntityType="App_DatingsystemModel.Anvandare" Width="1.5" PointX="0.75" PointY="5.25" Height="3.7109993489583317" />
+        <EntityTypeShape EntityType="App_DatingsystemModel.Inlagg" Width="1.5" PointX="3" PointY="1.375" Height="2.5571907552083317" />
+        <EntityTypeShape EntityType="App_DatingsystemModel.Kontakter" Width="1.5" PointX="3" PointY="4.75" Height="1.9802864583333317" />
+        <EntityTypeShape EntityType="App_DatingsystemModel.Meddelande" Width="1.5" PointX="3" PointY="7.375" Height="2.7494921874999996" />
+        <EntityTypeShape EntityType="App_DatingsystemModel.ProfilBild" Width="1.5" PointX="3" PointY="10.875" Height="1.7879850260416674" />
+        <AssociationConnector Association="App_DatingsystemModel.FK__Inlagg__Fran__0AD2A005" >
+          <ConnectorPoint PointX="1.5" PointY="5.25" />
+          <ConnectorPoint PointX="1.5" PointY="2.6535953776041659" />
+          <ConnectorPoint PointX="3" PointY="2.6535953776041659" />
+        </AssociationConnector>
+        <AssociationConnector Association="App_DatingsystemModel.FK__Inlagg__Till__0BC6C43E" >
+          <ConnectorPoint PointX="1.9062525" PointY="5.25" />
+          <ConnectorPoint PointX="1.9062525" PointY="3.3241455664062496" />
+          <ConnectorPoint PointX="3" PointY="3.3241455664062496" />
+        </AssociationConnector>
+        <AssociationConnector Association="App_DatingsystemModel.FK__Kontakter__Anvan__15502E78" >
+          <ConnectorPoint PointX="2.25" PointY="5.9901432291666659" />
+          <ConnectorPoint PointX="3" PointY="5.9901432291666659" />
+        </AssociationConnector>
+        <AssociationConnector Association="App_DatingsystemModel.FK__Kontakter__Konta__164452B1" >
+          <ConnectorPoint PointX="2.25" PointY="5.5575716145833329" />
+          <ConnectorPoint PointX="3" PointY="5.5575716145833329" />
+        </AssociationConnector>
+        <AssociationConnector Association="App_DatingsystemModel.FK__Meddelande__Fran__0519C6AF" >
+          <ConnectorPoint PointX="2.25" PointY="8.1679996744791659" />
+          <ConnectorPoint PointX="3" PointY="8.1679996744791659" />
+        </AssociationConnector>
+        <AssociationConnector Association="App_DatingsystemModel.FK__Meddelande__Till__060DEAE8" >
+          <ConnectorPoint PointX="2.25" PointY="7.7089998372395829" />
+          <ConnectorPoint PointX="3" PointY="7.7089998372395829" />
+        </AssociationConnector>
+        <AssociationConnector Association="App_DatingsystemModel.FK__ProfilBil__Anvan__108B795B" >
+          <ConnectorPoint PointX="1.5" PointY="8.9609993489583317" />
+          <ConnectorPoint PointX="1.5" PointY="11.768992513020834" />
+          <ConnectorPoint PointX="3" PointY="11.768992513020834" />
+        </AssociationConnector>
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

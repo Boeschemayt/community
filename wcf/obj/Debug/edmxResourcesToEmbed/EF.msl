@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="App_DatingsystemModelStoreContainer" CdmEntityContainer="DatingEntities">
+    <EntitySetMapping Name="Anvandare">
+      <EntityTypeMapping TypeName="App_DatingsystemModel.Anvandare">
+        <MappingFragment StoreEntitySet="Anvandare">
+          <ScalarProperty Name="Ort" ColumnName="Ort" />
+          <ScalarProperty Name="Info" ColumnName="Info" />
+          <ScalarProperty Name="Kon" ColumnName="Kon" />
+          <ScalarProperty Name="Alder" ColumnName="Alder" />
+          <ScalarProperty Name="Efternamn" ColumnName="Efternamn" />
+          <ScalarProperty Name="Fornamn" ColumnName="Fornamn" />
+          <ScalarProperty Name="ProfilNamn" ColumnName="ProfilNamn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Inlagg">
+      <EntityTypeMapping TypeName="App_DatingsystemModel.Inlagg">
+        <MappingFragment StoreEntitySet="Inlagg">
+          <ScalarProperty Name="HarLast" ColumnName="HarLast" />
+          <ScalarProperty Name="Skickat" ColumnName="Skickat" />
+          <ScalarProperty Name="Innehall" ColumnName="Innehall" />
+          <ScalarProperty Name="Till" ColumnName="Till" />
+          <ScalarProperty Name="Fran" ColumnName="Fran" />
+          <ScalarProperty Name="InlaggID" ColumnName="InlaggID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kontakter">
+      <EntityTypeMapping TypeName="App_DatingsystemModel.Kontakter">
+        <MappingFragment StoreEntitySet="Kontakter">
+          <ScalarProperty Name="Kontakt" ColumnName="Kontakt" />
+          <ScalarProperty Name="Request" ColumnName="Request" />
+          <ScalarProperty Name="Anvandare" ColumnName="Anvandare" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Meddelande">
+      <EntityTypeMapping TypeName="App_DatingsystemModel.Meddelande">
+        <MappingFragment StoreEntitySet="Meddelande">
+          <ScalarProperty Name="HarLast" ColumnName="HarLast" />
+          <ScalarProperty Name="Skickat" ColumnName="Skickat" />
+          <ScalarProperty Name="Innehall" ColumnName="Innehall" />
+          <ScalarProperty Name="Amne" ColumnName="Amne" />
+          <ScalarProperty Name="Till" ColumnName="Till" />
+          <ScalarProperty Name="Fran" ColumnName="Fran" />
+          <ScalarProperty Name="MedID" ColumnName="MedID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProfilBild">
+      <EntityTypeMapping TypeName="App_DatingsystemModel.ProfilBild">
+        <MappingFragment StoreEntitySet="ProfilBild">
+          <ScalarProperty Name="Anvandare" ColumnName="Anvandare" />
+          <ScalarProperty Name="Bild" ColumnName="Bild" />
+          <ScalarProperty Name="BildID" ColumnName="BildID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

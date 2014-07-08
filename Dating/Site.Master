@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Dating.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="~/CSS/Style.css" rel="stylesheet" type="text/css" runat="server" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <div class="page">
+
+        <div class="header">
+
+            <div class="headContainer">
+                <span class="logo">Last chance - the site for those who just don't want live alone</span>                
+                <span class="logStatus">
+                    <asp:LoginView ID="LoginView" runat="server">
+                        <AnonymousTemplate>
+                            <a href="Login/Login.aspx"><asp:Localize runat="server" ID="lclLogIn" 
+                                meta:resourcekey="lclLogInResource1" Text="Log in"></asp:Localize></a>
+                        </AnonymousTemplate>
+                        <LoggedInTemplate>
+                            <asp:LoginStatus ID="LoginStatus" runat="server" LogoutAction="Redirect" 
+                                LogoutPageUrl="~/Default.aspx" LoginText="Log out" 
+                                meta:resourcekey="LoginStatusResource1" />
+                        </LoggedInTemplate>
+                    </asp:LoginView>
+                </span> <!--end logStatus-->
+            </div>
+
+            <div class="navigation">
+                <asp:Menu ID="Menu" runat="server" DataSourceID="SiteMapDataSourceMenu" StaticDisplayLevels="3"
+                    Orientation="Horizontal" StaticSubMenuIndent="16px" 
+                    StaticMenuItemStyle-CssClass="menuItem" meta:resourcekey="MenuResource1" >
+                </asp:Menu>            
+                <asp:SiteMapDataSource ID="SiteMapDataSourceMenu" runat="server" />
+
+            <asp:ScriptManager ID="ScriptManager1" runat="server">
+            </asp:ScriptManager>
+            <asp:Timer ID="Timer1" runat="server" Interval="1000" OnTick="Timer1_Tick">
+            </asp:Timer>
+            <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                <ContentTemplate>
+                    <asp:Image ID="imgMail" runat="server" Height="30px" 
+                        ImageUrl="~/Pictures/ikon_email.png" Width="36px" 
+                        meta:resourcekey="imgMailResource1" />
+                </ContentTemplate>
+             <Triggers>
+            <asp:AsyncPostBackTrigger ControlID="Timer1" />
+            </Triggers>
+            </asp:UpdatePanel>
+
+            </div> <!--end navigation-->
+
+            <div>
+                <asp:SiteMapPath ID="SiteMapPath" CssClass="breadcrumbs" runat="server" 
+                    meta:resourcekey="SiteMapPathResource1">
+                </asp:SiteMapPath>   
+            </div>
+        </div> <!--end header-->
+
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div class="footer" runat="server">
+        </div>
+
+    </div> <!--end page-->
+    </form>
+</body>
+</html>
